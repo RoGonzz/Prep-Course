@@ -95,7 +95,7 @@ Existen muchas otras configuraciones de Git que puedes encontrar en el comando g
 ## Reset y checkout
 
 - `git checkout + Id del commit`: podemos volver a cualquier versión anterior de un archivo específico o incluso
-  de nuestro proyecto entero. Esta es también es la forma de movernos entre ramas.
+  de nuestro proyecto entero. Esta es también la forma de movernos entre ramas.
 
 - `git log --stat`: commit descriptivo con cantidad de líneas agregadas y removidas por archivo.
 
@@ -141,7 +141,7 @@ Luego de crear nuestra cuenta, podemos crear o importar repositorios, crear orga
 
 El Readme.md es el archivo que veremos por defecto al entrar en un repositorio. Es una muy buena práctica configurarlo para describir el proyecto, los requerimientos y las instrucciones que debemos seguir para contribuir correctamente.
 
-Para clonar un repositorio desde GitHub (o cualquier otro servidor remoto) debemos copiar el URL (por ahora, usando HTTPS) y ejecutar el comando git clone + la URL que acabamos de copiar. Esto descargara la versión de nuestro proyecto que se encuentra en GitHub.
+Para clonar un repositorio desde GitHub (o cualquier otro servidor remoto) debemos copiar el URL (por ahora, usando HTTPS) y ejecutar el comando git clone + la URL que acabamos de copiar. Esto descargará la versión de nuestro proyecto que se encuentra en GitHub.
 
 Sin embargo, esto solo funciona para las personas que quieren empezar a contribuir en el proyecto. Si queremos conectar el repositorio de GitHub con nuestro repositorio local, el que creamos con git init, debemos ejecutar las siguientes instrucciones:
 
